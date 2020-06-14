@@ -1,4 +1,7 @@
 let HOST = location.origin.replace(/^http/, 'ws');
+//look at documentation for this
+// https://devcenter.heroku.com/articles/node-websockets
+// console.log(HOST);
 const connection = new WebSocket(HOST);
 // const connection = new WebSocket('ws://localhost:8080');
 const button = document.querySelector('#send');

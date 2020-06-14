@@ -24,3 +24,7 @@ wss.on('connection', (ws) => {
 		});
 	});
 });
+
+// git remote set-url origin https://git.heroku.com/testchat-demo.git
+
+// git remote set-url origin https://github.com/sonnybardhan/web-socket-playground.git
