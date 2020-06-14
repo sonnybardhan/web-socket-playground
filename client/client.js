@@ -1,4 +1,6 @@
-const connection = new WebSocket('ws://localhost:8080');
+let HOST = location.origin.replace(/^http/, 'ws');
+const connection = new WebSocket(HOST);
+// const connection = new WebSocket('ws://localhost:8080');
 const button = document.querySelector('#send');
 
 connection.onopen = (event) => {
